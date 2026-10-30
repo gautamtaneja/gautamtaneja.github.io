@@ -119,7 +119,7 @@ export const Hero: React.FC = () => {
             variants={itemVariants}
             className="flex flex-wrap items-center justify-center sm:justify-start gap-2 pt-1 pb-2"
           >
-            {['.NET 8/10', 'C#', 'ASP.NET Core', 'React', 'TypeScript', 'Dapper', 'SQL Server', 'PostgreSQL', 'Azure', 'Docker'].map((tech) => (
+            {['.NET 8', 'C#', 'ASP.NET Core', 'Angular 18', 'React', 'TypeScript', 'SQL Server', 'Dapper', 'Azure', 'Docker'].map((tech) => (
               <span
                 key={tech}
                 className="px-2.5 py-1 text-xs font-mono rounded-md bg-slate-100 dark:bg-slate-800/60 border border-slate-300 dark:border-slate-700/50 text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors"

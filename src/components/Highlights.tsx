@@ -24,10 +24,10 @@ export const Highlights: React.FC = () => {
                 <TrendingUp className="w-3.5 h-3.5" /> Production Optimization Case Study
               </span>
               <h3 className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white">
-                API Response Latency Slashed by 62%
+                API Response Latency Slashed by 60%
               </h3>
               <p className="text-sm text-slate-600 dark:text-slate-300 max-w-2xl">
-                By decoupling heavy ORM read paths and adopting Dapper for high-frequency queries alongside Redis caching, critical endpoint response times dropped from ~1.2s to 450ms.
+                On Imperans SaaS, decoupling heavy ORM read paths and adopting Dapper for high-frequency queries alongside Redis caching cut critical endpoint response times from 1.2s to 450ms.
               </p>
             </div>
 
@@ -43,7 +43,7 @@ export const Highlights: React.FC = () => {
 
               <div className="flex items-center justify-between text-xs text-slate-500 dark:text-slate-400 mb-1">
                 <span>After (Dapper CQRS Read-Path)</span>
-                <span className="font-mono text-emerald-600 dark:text-emerald-400 font-bold">450ms (-62%)</span>
+                <span className="font-mono text-emerald-600 dark:text-emerald-400 font-bold">450ms (-60%)</span>
               </div>
               <div className="w-full bg-slate-200 dark:bg-slate-800 rounded-full h-2.5">
                 <div className="bg-emerald-500 h-2.5 rounded-full w-[37.5%]" />
