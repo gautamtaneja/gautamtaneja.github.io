@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion, useReducedMotion, type Variants } from 'framer-motion';
-import { ArrowRight, Mail, MapPin, Briefcase, Zap, Terminal } from 'lucide-react';
+import { ArrowRight, Mail, Briefcase, Zap, Terminal } from 'lucide-react';
 import { portfolioConfig } from '../config/portfolio';
 import { GithubIcon, LinkedinIcon } from './Icons';
 
@@ -85,11 +85,6 @@ export const Hero: React.FC = () => {
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-slate-100 dark:bg-slate-800/80 border border-slate-300 dark:border-slate-700/70 text-slate-700 dark:text-slate-300">
               <Briefcase className="w-3.5 h-3.5 text-sky-500 dark:text-sky-400" />
               {portfolioConfig.personal.experienceYears} Experience
-            </span>
-
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-slate-100 dark:bg-slate-800/80 border border-slate-300 dark:border-slate-700/70 text-slate-700 dark:text-slate-300">
-              <MapPin className="w-3.5 h-3.5 text-sky-500 dark:text-sky-400" />
-              {portfolioConfig.personal.location}
             </span>
           </motion.div>
 

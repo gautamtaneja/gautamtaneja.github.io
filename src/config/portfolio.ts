@@ -79,8 +79,8 @@ export const portfolioConfig: PortfolioConfig = {
   personal: {
     name: "Gautam Taneja",
     title: "Senior Software Engineer | Full-Stack Developer",
-    experienceYears: "~5 Years (4+ Full-Time)",
-    location: "India (Open to Relocation)",
+    experienceYears: "~5 Years",
+    location: "India",
     headline: "Building Scalable Software. Engineering Better Experiences.",
     subHeadline:
       "Software Engineer specializing in scalable backend systems, modern web applications, cloud infrastructure, and performance-driven engineering.",
