@@ -91,7 +91,7 @@ export const portfolioConfig: PortfolioConfig = {
     ],
     email: import.meta.env.VITE_CONTACT_EMAIL || "gautamtaneja.dev@gmail.com",
     resumeUrl: import.meta.env.VITE_RESUME_URL || "./resume.pdf",
-    githubUrl: import.meta.env.VITE_GITHUB_URL || "https://github.com/your-username",
+    githubUrl: import.meta.env.VITE_GITHUB_URL || "https://github.com/gautamtaneja",
     linkedinUrl: import.meta.env.VITE_LINKEDIN_URL || "https://linkedin.com/in/your-profile",
     appsScriptUrl: import.meta.env.VITE_APPS_SCRIPT_URL || "",
   },
@@ -381,3 +381,4 @@ export const portfolioConfig: PortfolioConfig = {
     twitterHandle: "@gautamtaneja",
   },
 };
+

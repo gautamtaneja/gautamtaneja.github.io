@@ -111,7 +111,7 @@ portfolio/
 
 ### 1. Clone & Install
 ```bash
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/gautamtaneja/portfolio.git
 cd portfolio
 npm install
 ```
@@ -127,7 +127,7 @@ Edit `.env` to set your preferences:
 # Leave empty during initial testing to see the setup banner, or add your deployed Apps Script URL
 VITE_APPS_SCRIPT_URL="https://script.google.com/macros/s/AKfycbx.../exec"
 VITE_CONTACT_EMAIL="gautamtaneja.dev@gmail.com"
-VITE_GITHUB_URL="https://github.com/your-username"
+VITE_GITHUB_URL="https://github.com/gautamtaneja"
 VITE_LINKEDIN_URL="https://linkedin.com/in/your-profile"
 ```
 
@@ -185,7 +185,7 @@ For detailed security boundaries, honeypot explanations, and quota limits (100 e
    git add .
    git commit -m "feat: complete modern portfolio application"
    git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/portfolio.git
+   git remote add origin https://github.com/gautamtaneja/portfolio.git
    git push -u origin main
    ```
 2. In your GitHub repository, navigate to:
@@ -235,3 +235,4 @@ All portfolio content is decoupled from layout components and centralized in:
 ## 📄 License
 
 MIT License — Feel free to use and adapt this portfolio codebase.
+
