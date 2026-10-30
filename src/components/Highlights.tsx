@@ -27,7 +27,7 @@ export const Highlights: React.FC = () => {
                 API Response Latency Slashed by 60%
               </h3>
               <p className="text-sm text-slate-600 dark:text-slate-300 max-w-2xl">
-                On Imperans SaaS, decoupling heavy ORM read paths and adopting Dapper for high-frequency queries alongside Redis caching cut critical endpoint response times from 1.2s to 450ms.
+                By decoupling heavy ORM read paths and adopting a hybrid CQRS data layer with Dapper alongside caching, critical endpoint response times dropped from 1.2s to 450ms.
               </p>
             </div>
 

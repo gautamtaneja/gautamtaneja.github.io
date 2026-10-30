@@ -83,11 +83,11 @@ export const portfolioConfig: PortfolioConfig = {
     location: "India (Open to Relocation)",
     headline: "Building Scalable Software. Engineering Better Experiences.",
     subHeadline:
-      "Software Engineer specializing in scalable backend systems with C# / .NET 8, modern SPAs with Angular 18 & React, cloud infrastructure on Azure, and performance-driven engineering.",
+      "Software Engineer specializing in scalable backend systems, modern web applications, cloud infrastructure, and performance-driven engineering.",
     bio: [
-      "I am a full-stack software engineer with 5 years of experience (4+ full-time) architecting and building production SaaS platforms with C#, .NET 8, ASP.NET Core Web API, Angular 18, and SQL Server.",
-      "As lead engineer on Imperans—a mission-critical compliance SaaS platform for TDDA (The Drug Detection Agency, New Zealand)—I architected microservices processing 25,000+ monthly drug & alcohol tests across Australasia under strict ISO 17025 accreditation standards.",
-      "My engineering focus centers on clean system design and measurable optimization: from building a hybrid EF Core/Dapper data layer that cut API latency by 60% (1.2s to 450ms) to designing RBAC for 100K+ users and maintaining 15+ automated Azure DevOps CI/CD pipelines.",
+      "I am a versatile Software Engineer with approximately 5 years of professional experience architecting, building, and delivering high-performance web applications and scalable backend services.",
+      "My engineering philosophy centers around Clean Architecture, maintainability, and end-to-end technical ownership. I enjoy bridging the gap between elegant client-side interfaces and resilient, high-throughput server architectures—from designing robust database schemas and secure RESTful APIs to automating cloud deployments.",
+      "I thrive in collaborative environments solving complex technical challenges, hardening system security, optimizing application performance, and delivering mission-critical software that creates genuine business value.",
     ],
     email: import.meta.env.VITE_CONTACT_EMAIL || "gautam.debug@gmail.com",
     resumeUrl: import.meta.env.VITE_RESUME_URL || "./resume.pdf",
@@ -99,10 +99,10 @@ export const portfolioConfig: PortfolioConfig = {
   },
   highlights: [
     {
-      title: "Imperans SaaS Platform",
-      value: "25,000+/mo",
-      description: "Monthly drug & alcohol tests processed across Australasia under ISO 17025 accreditation standards.",
-      badge: "Production Scale",
+      title: "Production Engineering",
+      value: "~5 Years",
+      description: "Delivering resilient backend systems, cloud pipelines, and modern web applications.",
+      badge: "Proven Experience",
     },
     {
       title: "API Performance Gain",

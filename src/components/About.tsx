@@ -12,7 +12,7 @@ export const About: React.FC = () => {
             <span>01. ABOUT ME</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900 dark:text-white">
-            Engineering Rigor Meets Full-Stack Ownership
+            Architecting Scalable Systems & Modern Web Applications
           </h2>
         </div>
 
@@ -29,20 +29,20 @@ export const About: React.FC = () => {
               <div className="p-4 rounded-xl bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/60 shadow-sm">
                 <div className="flex items-center gap-3 text-sky-600 dark:text-sky-400 font-semibold mb-1 text-sm">
                   <Cpu className="w-4 h-4" />
-                  <span>Systems & Performance</span>
+                  <span>Architecture & Systems</span>
                 </div>
                 <p className="text-xs text-slate-600 dark:text-slate-400">
-                  Focusing on latency reduction, throughput, CQRS read optimization, and eliminating bottleneck queries.
+                  Designing clean, decoupled service architectures, modular APIs, and scalable domain layers built for maintainability.
                 </p>
               </div>
 
               <div className="p-4 rounded-xl bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/60 shadow-sm">
                 <div className="flex items-center gap-3 text-emerald-600 dark:text-emerald-400 font-semibold mb-1 text-sm">
                   <ShieldCheck className="w-4 h-4" />
-                  <span>API Security & Auth</span>
+                  <span>End-to-End Ownership</span>
                 </div>
                 <p className="text-xs text-slate-600 dark:text-slate-400">
-                  Implementing JWT, OAuth2, OIDC flows, granular RBAC, and resilient integration boundaries.
+                  Taking features from initial requirements and domain modeling all the way to cloud deployment, CI/CD, and monitoring.
                 </p>
               </div>
             </div>
@@ -111,7 +111,7 @@ export const About: React.FC = () => {
               </div>
 
               <div className="mt-4 pt-3 border-t border-slate-200 dark:border-slate-800/80 text-[11px] text-slate-500 dark:text-slate-400 flex items-center justify-between">
-                <span>Location: India</span>
+                <span>Location: Mohali, Punjab, India</span>
                 <span className="text-sky-600 dark:text-sky-400 font-mono font-medium">Full-Stack Lifecycle</span>
               </div>
             </div>
