@@ -126,7 +126,7 @@ Edit `.env` to set your preferences:
 ```ini
 # Leave empty during initial testing to see the setup banner, or add your deployed Apps Script URL
 VITE_APPS_SCRIPT_URL="https://script.google.com/macros/s/AKfycbx.../exec"
-VITE_CONTACT_EMAIL="gautamtaneja.dev@gmail.com"
+VITE_CONTACT_EMAIL="gautam.debug@gmail.com"
 VITE_GITHUB_URL="https://github.com/gautamtaneja"
 VITE_LINKEDIN_URL="https://linkedin.com/in/your-profile"
 ```

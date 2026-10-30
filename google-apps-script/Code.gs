@@ -16,7 +16,7 @@
 
 // Configuration Defaults (Override via Script Properties)
 var DEFAULT_CONFIG = {
-  RECIPIENT_EMAIL: 'gautamtaneja.dev@gmail.com', // Update this or set via Script Properties
+  RECIPIENT_EMAIL: 'gautam.debug@gmail.com', // Primary notification inbox
   SUBJECT_PREFIX: '[Portfolio Contact]',
   MAX_SUBMISSIONS_PER_IP_OR_EMAIL: 5,
   THROTTLE_WINDOW_SECONDS: 600 // 10 minutes
@@ -316,3 +316,4 @@ function getRecipientEmail_() {
   }
   return DEFAULT_CONFIG.RECIPIENT_EMAIL;
 }
+

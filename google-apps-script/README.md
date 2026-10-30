@@ -65,7 +65,7 @@ Our design solves this cleanly and reliably:
 There are two easy ways to set your email:
 
 #### Method A: Using the built-in setup function (Recommended)
-1. In `Code.gs`, locate `DEFAULT_CONFIG.RECIPIENT_EMAIL` (around line 19) and replace `'gautamtaneja.dev@gmail.com'` with your actual email address.
+1. In `Code.gs`, `DEFAULT_CONFIG.RECIPIENT_EMAIL` is configured as `'gautam.debug@gmail.com'`.
 2. In the Apps Script toolbar dropdown (next to "Debug"), select the function **`setupScriptProperties`**.
 3. Click **Run**.
 4. A prompt will appear: "Authorization required". Click **Review permissions**.
@@ -149,3 +149,4 @@ If you ever modify `Code.gs`:
 2. Click the **Pencil icon (Edit)** next to your active deployment.
 3. In the **Version** dropdown, select **New version**.
 4. Click **Deploy**. (The `/exec` URL remains unchanged).
+

@@ -89,11 +89,13 @@ export const portfolioConfig: PortfolioConfig = {
       "My engineering philosophy centers around Clean Architecture, maintainability, and measurable performance. Whether optimizing relational database queries to slash endpoint response times by over 60%, establishing robust CI/CD automation, or designing responsive, accessible user interfaces in React and Angular, I take complete technical ownership from architectural design to production deployment.",
       "I thrive in environments where solving complex distributed systems challenges, hardening API security, and engineering resilient, mission-critical software directly drives business impact.",
     ],
-    email: import.meta.env.VITE_CONTACT_EMAIL || "gautamtaneja.dev@gmail.com",
+    email: import.meta.env.VITE_CONTACT_EMAIL || "gautam.debug@gmail.com",
     resumeUrl: import.meta.env.VITE_RESUME_URL || "./resume.pdf",
     githubUrl: import.meta.env.VITE_GITHUB_URL || "https://github.com/gautamtaneja",
     linkedinUrl: import.meta.env.VITE_LINKEDIN_URL || "https://linkedin.com/in/your-profile",
-    appsScriptUrl: import.meta.env.VITE_APPS_SCRIPT_URL || "",
+    appsScriptUrl:
+      import.meta.env.VITE_APPS_SCRIPT_URL ||
+      "https://script.google.com/macros/s/AKfycbxoYLfFKqKmyXsCY53Gn_6moQtHIU0X9BOG3n6jiC_jykkHzGIAm6NHcr2sfa63M2Yf/exec",
   },
   highlights: [
     {
