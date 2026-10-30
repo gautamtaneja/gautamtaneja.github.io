@@ -261,9 +261,8 @@ function respondHtml_(correlationToken, success, message, clientOrigin) {
     '    message: ' + JSON.stringify(safeMsg) + ',' +
     '    timestamp: ' + Date.now() +
     '  };' +
-    '  if (window.parent && window.parent !== window) {' +
-    '    window.parent.postMessage(payload, ' + JSON.stringify(targetOrigin) + ');' +
-    '  }' +
+    '  try { if (window.top && window.top !== window) { window.top.postMessage(payload, "*"); } } catch(e) {}' +
+    '  try { if (window.parent && window.parent !== window) { window.parent.postMessage(payload, "*"); } } catch(e) {}' +
     '})();' +
     '</script>' +
     '<p style="font-family:sans-serif;color:#334155;font-size:14px;padding:20px;">' +

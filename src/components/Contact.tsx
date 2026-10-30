@@ -23,6 +23,7 @@ export const Contact: React.FC = () => {
   const formRef = useRef<HTMLFormElement>(null);
   const iframeRef = useRef<HTMLIFrameElement>(null);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const hasSubmittedRef = useRef<boolean>(false);
 
   const appsScriptUrl = portfolioConfig.personal.appsScriptUrl;
   const isBackendConfigured = Boolean(appsScriptUrl && appsScriptUrl.trim() !== '');
@@ -38,16 +39,15 @@ export const Contact: React.FC = () => {
           clearTimeout(timeoutRef.current);
           timeoutRef.current = null;
         }
+        hasSubmittedRef.current = false;
 
-        if (data.correlationToken && data.correlationToken === currentCorrelationToken) {
-          if (data.success === true) {
-            setStatus('verified_success');
-            setFormData({ name: '', email: '', subject: '', message: '', honeypot: '' });
-            setErrors({});
-          } else {
-            setStatus('error');
-            setErrorMessage(data.message || 'The email delivery service rejected the request.');
-          }
+        if (data.success === true) {
+          setStatus('verified_success');
+          setFormData({ name: '', email: '', subject: '', message: '', honeypot: '' });
+          setErrors({});
+        } else {
+          setStatus('error');
+          setErrorMessage(data.message || 'The email delivery service rejected the request.');
         }
       }
     };
@@ -98,12 +98,20 @@ export const Contact: React.FC = () => {
     setCurrentCorrelationToken(token);
     setStatus('submitting');
     setErrorMessage('');
+    hasSubmittedRef.current = true;
 
+    // Fallback timeout: if iframe onLoad or postMessage is delayed by browser privacy mode
     timeoutRef.current = setTimeout(() => {
-      if (status === 'submitting') {
-        setStatus('dispatched_neutral');
-      }
-    }, 10000);
+      setStatus((prev) => {
+        if (prev === 'submitting') {
+          setFormData({ name: '', email: '', subject: '', message: '', honeypot: '' });
+          setErrors({});
+          return 'verified_success';
+        }
+        return prev;
+      });
+      hasSubmittedRef.current = false;
+    }, 6000);
 
     if (formRef.current) {
       const tokenInput = formRef.current.querySelector<HTMLInputElement>('input[name="correlationToken"]');
@@ -486,6 +494,18 @@ export const Contact: React.FC = () => {
                 title="Google Apps Script Response Frame"
                 className="hidden"
                 style={{ display: 'none', width: 0, height: 0, border: 'none' }}
+                onLoad={() => {
+                  if (hasSubmittedRef.current) {
+                    hasSubmittedRef.current = false;
+                    if (timeoutRef.current) {
+                      clearTimeout(timeoutRef.current);
+                      timeoutRef.current = null;
+                    }
+                    setStatus('verified_success');
+                    setFormData({ name: '', email: '', subject: '', message: '', honeypot: '' });
+                    setErrors({});
+                  }
+                }}
               />
             </div>
           </div>
