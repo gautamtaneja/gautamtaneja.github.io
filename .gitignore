@@ -7,6 +7,8 @@ node_modules
 dist
 dist-ssr
 *.local
+/*.pdf
+!public/resume.pdf
 
 # Environment variables (Never commit real secrets or local overrides)
 .env
