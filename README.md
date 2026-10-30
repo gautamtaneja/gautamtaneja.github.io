@@ -128,7 +128,7 @@ Edit `.env` to set your preferences:
 VITE_APPS_SCRIPT_URL="https://script.google.com/macros/s/AKfycbx.../exec"
 VITE_CONTACT_EMAIL="gautam.debug@gmail.com"
 VITE_GITHUB_URL="https://github.com/gautamtaneja"
-VITE_LINKEDIN_URL="https://linkedin.com/in/your-profile"
+VITE_LINKEDIN_URL="https://linkedin.com/in/gautam-taneja"
 ```
 
 ### 3. Start Development Server

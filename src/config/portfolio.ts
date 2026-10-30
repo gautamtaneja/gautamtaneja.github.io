@@ -92,7 +92,7 @@ export const portfolioConfig: PortfolioConfig = {
     email: import.meta.env.VITE_CONTACT_EMAIL || "gautam.debug@gmail.com",
     resumeUrl: import.meta.env.VITE_RESUME_URL || "./resume.pdf",
     githubUrl: import.meta.env.VITE_GITHUB_URL || "https://github.com/gautamtaneja",
-    linkedinUrl: import.meta.env.VITE_LINKEDIN_URL || "https://linkedin.com/in/your-profile",
+    linkedinUrl: import.meta.env.VITE_LINKEDIN_URL || "https://linkedin.com/in/gautam-taneja",
     appsScriptUrl:
       import.meta.env.VITE_APPS_SCRIPT_URL ||
       "https://script.google.com/macros/s/AKfycbxoYLfFKqKmyXsCY53Gn_6moQtHIU0X9BOG3n6jiC_jykkHzGIAm6NHcr2sfa63M2Yf/exec",
