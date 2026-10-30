@@ -111,7 +111,7 @@ export const About: React.FC = () => {
               </div>
 
               <div className="mt-4 pt-3 border-t border-slate-200 dark:border-slate-800/80 text-[11px] text-slate-500 dark:text-slate-400 flex items-center justify-between">
-                <span>Location: Mohali, Punjab, India</span>
+                <span>Location: India</span>
                 <span className="text-sky-600 dark:text-sky-400 font-mono font-medium">Full-Stack Lifecycle</span>
               </div>
             </div>

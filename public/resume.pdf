@@ -51,7 +51,7 @@ BT
 0 -20 Td
 (Senior Software Engineer | Full-Stack Developer) Tj
 0 -16 Td
-(Location: Mohali, Punjab, India  |  Experience: ~5 Years) Tj
+(Location: India  |  Experience: ~5 Years) Tj
 0 -24 Td
 /F1 14 Tf
 (PROFESSIONAL SUMMARY) Tj
@@ -77,13 +77,15 @@ BT
 (EXPERIENCE) Tj
 /F2 10 Tf
 0 -16 Td
-(Enest Technologies Pvt. Ltd. - Software Engineer / Full-Stack Developer (2022 - Present)) Tj
+(Enest Technologies Pvt. Ltd. - Software Engineer / Full-Stack Developer (Aug 2022 - Present)) Tj
 0 -14 Td
 (- Built enterprise applications with ASP.NET Core, Angular, and React) Tj
 0 -14 Td
 (- Optimized API response times from ~1.2s to 450ms (62% faster) using Dapper) Tj
 0 -18 Td
-(Ghrix Technologies - Software Development Intern (Feb 2022 - Jul 2022)) Tj
+(Enest Technologies Pvt. Ltd. - Software Development Intern (Aug 2021 - Jul 2022)) Tj
+0 -14 Td
+(- Built responsive web UI components and collaborated on backend REST APIs) Tj
 0 -24 Td
 /F1 14 Tf
 (EDUCATION) Tj
@@ -108,5 +110,5 @@ trailer
   /Root 1 0 R
 >>
 startxref
-1317
+1350
 %%EOF

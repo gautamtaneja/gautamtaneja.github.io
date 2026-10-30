@@ -75,3 +75,4 @@ describe('Contact Form Validation & Sanitization', () => {
     expect(clean).toBe('scriptalert("hack")/scriptHello World!');
   });
 });
+

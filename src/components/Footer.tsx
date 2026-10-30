@@ -59,18 +59,13 @@ export const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Tech Stack & Copyright */}
+        {/* Copyright */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
           <div>
             © {new Date().getFullYear()} {portfolioConfig.personal.name}. All rights reserved.
           </div>
-
-          <div className="flex items-center gap-1.5 text-center">
-            <span>Built with React, TypeScript & Tailwind CSS</span>
-            <span>•</span>
-            <span>Zero-Cost Serverless with Google Apps Script</span>
-            <span>•</span>
-            <span className="text-emerald-400 font-mono">₹0 Recurring</span>
+          <div>
+            Senior Software Engineer & Full-Stack Developer
           </div>
         </div>
       </div>
